@@ -1,0 +1,157 @@
+[
+ {
+  "gap": 64,
+  "offset": 0,
+  "acc": 1.0,
+  "heads": [
+   {
+    "head": 0,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.9912230968475342,
+    "L2_query_to_true_source": 0.847175657749176
+   },
+   {
+    "head": 1,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.06839998066425323,
+    "L2_query_to_true_source": 0.9658941030502319
+   },
+   {
+    "head": 2,
+    "slope": 0.5,
+    "L1_value_to_previous_key": 0.9634658694267273,
+    "L2_query_to_true_source": 1.6697127046583045e-17
+   },
+   {
+    "head": 3,
+    "slope": 1.0,
+    "L1_value_to_previous_key": 0.005761441774666309,
+    "L2_query_to_true_source": 8.286691507159872e-32
+   }
+  ]
+ },
+ {
+  "gap": 64,
+  "offset": 1,
+  "acc": 0.12109375,
+  "heads": [
+   {
+    "head": 0,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.06482144445180893,
+    "L2_query_to_true_source": 0.005911186337471008
+   },
+   {
+    "head": 1,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.05377805233001709,
+    "L2_query_to_true_source": 0.00496310368180275
+   },
+   {
+    "head": 2,
+    "slope": 0.5,
+    "L1_value_to_previous_key": 0.2157420516014099,
+    "L2_query_to_true_source": 1.9001407482206312e-22
+   },
+   {
+    "head": 3,
+    "slope": 1.0,
+    "L1_value_to_previous_key": 0.1157238632440567,
+    "L2_query_to_true_source": 5.191396827242711e-31
+   }
+  ]
+ },
+ {
+  "gap": 0,
+  "offset": 0,
+  "acc": 0.244140625,
+  "heads": [
+   {
+    "head": 0,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.9912230968475342,
+    "L2_query_to_true_source": 0.035266295075416565
+   },
+   {
+    "head": 1,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.06839998066425323,
+    "L2_query_to_true_source": 0.16499298810958862
+   },
+   {
+    "head": 2,
+    "slope": 0.5,
+    "L1_value_to_previous_key": 0.9634658694267273,
+    "L2_query_to_true_source": 7.453620492015034e-05
+   },
+   {
+    "head": 3,
+    "slope": 1.0,
+    "L1_value_to_previous_key": 0.005761441774666309,
+    "L2_query_to_true_source": 1.0642112101777457e-05
+   }
+  ]
+ },
+ {
+  "gap": 36,
+  "offset": 0,
+  "acc": 0.796875,
+  "heads": [
+   {
+    "head": 0,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.9912230968475342,
+    "L2_query_to_true_source": 0.5531549453735352
+   },
+   {
+    "head": 1,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.06839998066425323,
+    "L2_query_to_true_source": 0.7588536739349365
+   },
+   {
+    "head": 2,
+    "slope": 0.5,
+    "L1_value_to_previous_key": 0.9634658694267273,
+    "L2_query_to_true_source": 1.5368586958608432e-10
+   },
+   {
+    "head": 3,
+    "slope": 1.0,
+    "L1_value_to_previous_key": 0.005761441774666309,
+    "L2_query_to_true_source": 2.4136710221642535e-22
+   }
+  ]
+ },
+ {
+  "gap": 96,
+  "offset": 0,
+  "acc": 0.90625,
+  "heads": [
+   {
+    "head": 0,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.9912230968475342,
+    "L2_query_to_true_source": 0.709783136844635
+   },
+   {
+    "head": 1,
+    "slope": 0.0,
+    "L1_value_to_previous_key": 0.06839998066425323,
+    "L2_query_to_true_source": 0.8688622713088989
+   },
+   {
+    "head": 2,
+    "slope": 0.5,
+    "L1_value_to_previous_key": 0.9634658694267273,
+    "L2_query_to_true_source": 3.801129427251066e-24
+   },
+   {
+    "head": 3,
+    "slope": 1.0,
+    "L1_value_to_previous_key": 0.005761441774666309,
+    "L2_query_to_true_source": 1.401298464324817e-45
+   }
+  ]
+ }
+]

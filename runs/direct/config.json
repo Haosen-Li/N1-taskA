@@ -1,0 +1,34 @@
+{
+  "args": {
+    "out": "runs/direct",
+    "steps": 4000,
+    "batch_size": 64,
+    "threads": 4,
+    "seed": 7,
+    "lr": 0.0015,
+    "device": "cuda:1",
+    "eval_every": 250,
+    "answer_weight": 2.0,
+    "layers": 2,
+    "width": 64
+  },
+  "model": {
+    "vocab_size": 20,
+    "d_model": 64,
+    "n_heads": 4,
+    "n_layers": 2,
+    "expansion": 4,
+    "max_seq_len": 256
+  },
+  "python": "/mnt/workspace/Wilson/miniconda3/envs/gps/bin/python",
+  "python_version": "3.10.18",
+  "torch": "2.7.1+cu126",
+  "device_name": "NVIDIA A100-SXM4-80GB",
+  "parameter_count": 119040,
+  "train_gaps": [
+    32,
+    48,
+    64
+  ],
+  "validation_seed": 20001
+}

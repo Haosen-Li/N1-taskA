@@ -1,0 +1,59 @@
+{
+  "corpus_chars": 4757420,
+  "vocab": 213,
+  "params": 880640,
+  "unigram_val_nats": 3.1440465450286865,
+  "bigram_val_nats": 2.455393075942993,
+  "log": [
+    {
+      "step": 500,
+      "train": 1.3929888010025024,
+      "val": 1.525477647781372
+    },
+    {
+      "step": 1000,
+      "train": 1.1161184310913086,
+      "val": 1.3158376216888428
+    },
+    {
+      "step": 1500,
+      "train": 1.0172501802444458,
+      "val": 1.2322807312011719
+    },
+    {
+      "step": 2000,
+      "train": 0.9948790669441223,
+      "val": 1.1924688816070557
+    },
+    {
+      "step": 2500,
+      "train": 1.0128555297851562,
+      "val": 1.1667087078094482
+    },
+    {
+      "step": 3000,
+      "train": 0.9659790992736816,
+      "val": 1.1587910652160645
+    }
+  ],
+  "val_nats_full": 1.1587910652160645,
+  "val_bits_per_char": 1.6717821232136556,
+  "val_loss_by_position": {
+    "0": 2.5400609970092773,
+    "1": 1.944253921508789,
+    "3": 1.5678960084915161,
+    "7": 1.428833246231079,
+    "15": 1.288094401359558,
+    "31": 1.1604582071304321,
+    "63": 1.0868958234786987,
+    "127": 1.0195658206939697
+  },
+  "val_loss_by_window": {
+    "1": 3.5072357654571533,
+    "2": 2.481584072113037,
+    "4": 1.650648832321167,
+    "16": 1.3314299583435059,
+    "64": 1.174262523651123
+  },
+  "sample": "def _check_fwait('_ssl_NTPSeuplithmety', MIMAIL)) from Stleadother\n            self.load_bind(self.load_bind())\n            if self.waitpity_len > 1:\n                self.debug >= 1 and tail < 0\n                self.state = 1\n                self.state.state = 28\n                result + 1\n\n            if chunk_chunk_chunks == 1:\n                return self.state\n            # os.set(b) results\n            return _all_chunks(chunks)\n\n    def _read(self):\n        \"\"\"Read timer the access the first on"
+}

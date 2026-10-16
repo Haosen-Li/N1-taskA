@@ -1,0 +1,14 @@
+{
+ "device": "NVIDIA A100-SXM4-80GB / cuda:1",
+ "weights_bit_identical": true,
+ "history_lines": [
+  4001,
+  4001
+ ],
+ "history_identical_except_elapsed": true,
+ "evaluate_results_differing_fields": [
+  ".checkpoint"
+ ],
+ "original_train_seconds": 82.503174726,
+ "reproduced_train_seconds": 156.39448505999462
+}

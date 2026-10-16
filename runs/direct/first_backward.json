@@ -1,0 +1,187 @@
+{
+  "token_embedding": {
+    "shape": [
+      20,
+      64
+    ],
+    "grad_norm": 2.264690399169922
+  },
+  "positions": {
+    "shape": [
+      256,
+      64
+    ],
+    "grad_norm": 0.5069906711578369
+  },
+  "blocks.0.norm1.scale": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.006113584153354168
+  },
+  "blocks.0.norm1.bias": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.017487013712525368
+  },
+  "blocks.0.attention.qkv.weight": {
+    "shape": [
+      64,
+      192
+    ],
+    "grad_norm": 0.2702775299549103
+  },
+  "blocks.0.attention.qkv.bias": {
+    "shape": [
+      192
+    ],
+    "grad_norm": 0.10950125753879547
+  },
+  "blocks.0.attention.out.weight": {
+    "shape": [
+      64,
+      64
+    ],
+    "grad_norm": 0.2704513370990753
+  },
+  "blocks.0.attention.out.bias": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.6727689504623413
+  },
+  "blocks.0.norm2.scale": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.006823187693953514
+  },
+  "blocks.0.norm2.bias": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.017982032150030136
+  },
+  "blocks.0.mlp.up.weight": {
+    "shape": [
+      64,
+      256
+    ],
+    "grad_norm": 0.37138065695762634
+  },
+  "blocks.0.mlp.up.bias": {
+    "shape": [
+      256
+    ],
+    "grad_norm": 0.10150399804115295
+  },
+  "blocks.0.mlp.down.weight": {
+    "shape": [
+      256,
+      64
+    ],
+    "grad_norm": 0.390794575214386
+  },
+  "blocks.0.mlp.down.bias": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.6508070230484009
+  },
+  "blocks.1.norm1.scale": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.005593574605882168
+  },
+  "blocks.1.norm1.bias": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.019146336242556572
+  },
+  "blocks.1.attention.qkv.weight": {
+    "shape": [
+      64,
+      192
+    ],
+    "grad_norm": 0.2469199299812317
+  },
+  "blocks.1.attention.qkv.bias": {
+    "shape": [
+      192
+    ],
+    "grad_norm": 0.10276046395301819
+  },
+  "blocks.1.attention.out.weight": {
+    "shape": [
+      64,
+      64
+    ],
+    "grad_norm": 0.24915537238121033
+  },
+  "blocks.1.attention.out.bias": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.6341233849525452
+  },
+  "blocks.1.norm2.scale": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.008383585140109062
+  },
+  "blocks.1.norm2.bias": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.016809634864330292
+  },
+  "blocks.1.mlp.up.weight": {
+    "shape": [
+      64,
+      256
+    ],
+    "grad_norm": 0.38123974204063416
+  },
+  "blocks.1.mlp.up.bias": {
+    "shape": [
+      256
+    ],
+    "grad_norm": 0.10426224023103714
+  },
+  "blocks.1.mlp.down.weight": {
+    "shape": [
+      256,
+      64
+    ],
+    "grad_norm": 0.40521785616874695
+  },
+  "blocks.1.mlp.down.bias": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.631674587726593
+  },
+  "final_norm.scale": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.04813283681869507
+  },
+  "final_norm.bias": {
+    "shape": [
+      64
+    ],
+    "grad_norm": 0.11049656569957733
+  },
+  "lm_head.weight": {
+    "shape": [
+      64,
+      20
+    ],
+    "grad_norm": 2.618079900741577
+  }
+}

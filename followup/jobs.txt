@@ -1,0 +1,35 @@
+# name|args to followup/train_variant.py (device/threads/out are added by run_jobs.py)
+default_s8|--seed 8
+default_s9|--seed 9
+default_s10|--seed 10
+default_s11|--seed 11
+noslope_s7|--noslope --seed 7
+noslope_s8|--noslope --seed 8
+noslope_s9|--noslope --seed 9
+layers3_s7|--layers 3 --seed 7
+layers3_s8|--layers 3 --seed 8
+layers3_s9|--layers 3 --seed 9
+sinus_s7|--pos sinusoidal --seed 7
+sinus_s8|--pos sinusoidal --seed 8
+sinus_s9|--pos sinusoidal --seed 9
+nope_s7|--pos none --seed 7
+nope_s8|--pos none --seed 8
+nope_s9|--pos none --seed 9
+aw0_s7|--answer-weight 0 --seed 7
+aw0_s8|--answer-weight 0 --seed 8
+aw0_s9|--answer-weight 0 --seed 9
+old_s7|--fmt old --seed 7
+old_s8|--fmt old --seed 8
+old_s9|--fmt old --seed 9
+old16k_s7|--fmt old --steps 16000 --eval-every 1000 --seed 7
+old16k_s8|--fmt old --steps 16000 --eval-every 1000 --seed 8
+randoff_s7|--offset-max 16 --seed 7
+randoff_s8|--offset-max 16 --seed 8
+randoff16k_s7|--offset-max 16 --steps 16000 --eval-every 1000 --seed 7
+randoff16k_s8|--offset-max 16 --steps 16000 --eval-every 1000 --seed 8
+nope_randoff_s7|--pos none --offset-max 16 --seed 7
+nope_randoff_s8|--pos none --offset-max 16 --seed 8
+old_nope_s7|--fmt old --pos none --seed 7
+old_nope_s8|--fmt old --pos none --seed 8
+old_nope_s9|--fmt old --pos none --seed 9
+nope_randoff16k_s7|--pos none --offset-max 16 --steps 16000 --eval-every 1000 --seed 7
