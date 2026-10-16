@@ -7,17 +7,14 @@
 ```bash
 cd /mnt/workspace/Wilson/N1/taska
 source /mnt/workspace/Wilson/miniconda3/etc/profile.d/conda.sh && conda activate gps
-# 或直接使用 /mnt/workspace/Wilson/miniconda3/envs/gps/bin/python
 
-python -m pytest -q test_core.py                        # 11 项数值/因果性检查
 
-# 默认参数就是交付配置；写入 runs/reproduce，不覆盖交付权重
+python -m pytest -q test_core.py                   
+
 CUBLAS_WORKSPACE_CONFIG=:4096:8 python train.py --device cuda:1
 
 python evaluate.py --checkpoint runs/direct/model.pt --device cuda:1
 ```
-
-无 GPU 时用 `--device cpu`，但 CPU 和 GPU 的数值不会逐位相同。训练开启了 `torch.use_deterministic_algorithms(True)`：在 A100 上用上面的命令重训，得到的权重与 `runs/direct/model.pt` **逐位相同**，4001 行训练日志除耗时外也完全一致，已在 `cuda:1` 和 `cuda:6` 上验证。
 
 ## 文件
 
